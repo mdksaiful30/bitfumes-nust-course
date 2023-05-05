@@ -6,7 +6,7 @@
 		  <div class="flex space-x-7">
 			<!-- Website Logo -->
 			<div>
-				<NuxtLink to="/" class="flex items-center py-4 px-2">
+                <NuxtLink to="/" class="flex items-center py-4 px-2">
                     <a href="#" class="flex items-center py-4 px-2">
                         <img src="../logo.svg" alt="Logo" class="h-8 w-8 mr-2" />
                         <span class="font-semibold text-gray-500 text-lg">Navigation</span>
@@ -16,9 +16,9 @@
 			<!-- Primary Navbar items -->
 			<div class="hidden md:flex items-center space-x-1">
 				<NuxtLink to="/" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300 "> Home</NuxtLink>
-				<NuxtLink to="/about" class="py-4 px-2 text-green-500 border-b-4 border-green-500 font-semibold"> About</NuxtLink>
-				<NuxtLink to="/services" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300 "> services</NuxtLink>
-				<NuxtLink to="/contact" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"> Contact</NuxtLink>
+				<NuxtLink to="/about" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"> About</NuxtLink>
+				<NuxtLink to="/services" class="py-4 px-2 text-gray-500 font-semibold hover:text-green-500 transition duration-300"> services</NuxtLink>
+				<NuxtLink to="/contact" class="py-4 px-2 text-gray-500 border-b-4 border-green-500 font-semibold"> Contact</NuxtLink>
 			</div>
 		  </div>
 		</div>
@@ -33,7 +33,7 @@
 	  </button>
 	</div>
 	<div class="flex">
-	  <h1>About page</h1>
+	  <h1>Contact page</h1>
 	</div>
   </template>
   
